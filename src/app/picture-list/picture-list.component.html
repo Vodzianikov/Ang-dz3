@@ -1,0 +1,112 @@
+<div  class="d-flex  bg-dark w-100 position-absolute" [ngSwitch]="count">
+    <div class="d-flex border border-warning m-1  text-white border p-4"  >
+        <ng-template  ngSwitchDefault>
+            <img (click)="count = 1" class="w-100" src="https://crosti.ru/patterns/00/1f/6c/2b_picture_95a1a4bf.jpg" alt="">
+            <ul>
+                <li>{{Obj1.Name}}</li>
+                    <li>{{Obj1.Year}}</li>
+                    <li>{{Obj1.Autor}}</li>
+                    <li>{{Obj1.WithandHeight}}</li>
+                    <li>{{Obj1.Mesto}}</li>
+            </ul>
+        </ng-template>
+        <ng-template ngSwitchCase="1">
+            <div class="div ">
+                <img class="w-50 h-50" (click)="count = 0" src="https://crosti.ru/patterns/00/1f/6c/2b_picture_95a1a4bf.jpg" alt="">
+                    <button (click)="count = 0" >Закрыть</button>
+                </div>
+                <div class="d-flex flex-column w-100 h-100 m-1">
+                    <div class="w-100 h-50 border border-primary p-2 d-flex ">
+                        <div class="div w-25 h-100">
+                            <img class="w-50 h-50" src="{{Obj1.img}}" alt="">
+                            <ul>
+                                <li>{{Obj2.Name}}</li>
+                                <li>{{Obj2.Year}}</li>
+                                <li>{{Obj2.Autor}}</li>
+                            </ul>
+                        </div>
+                        <div class="div w-25 h-100">
+                            <img class="w-50 h-50" src="{{Obj3.img}}" alt="">
+                            <ul>
+                            <li>{{Obj3.Name}}</li>
+                            <li>{{Obj3.Year}}</li>
+                            <li>{{Obj3.Autor}}</li>
+                        </ul>
+                        </div>
+    
+                        <div class="div w-25 h-100">
+                            <img class="w-50 h-50" src="{{Obj4.img}}" alt="">
+                            <ul>
+                            <li>{{Obj4.Name}}</li>
+                            <li>{{Obj4.Year}}</li>
+                            <li>{{Obj4.Autor}}</li>
+                        </ul>
+                        </div>
+                        <div class="div w-25 h-100">
+                            <img class="w-50 h-50" src="{{Obj5.img}}" alt="">
+                            <ul>
+                            <li>{{Obj5.Name}}</li>
+                            <li>{{Obj5.Year}}</li>
+                            <li>{{Obj5.Autor}}</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="w-100 h-100 border border-danger p-2 d-flex mt-1">
+                        <div class="div w-25 h-100">
+                            <img class="w-50 h-50" src="{{Obj6.img}}" alt="">
+                            <ul>
+                            <li>{{Obj6.Name}}</li>
+                            <li>{{Obj6.Year}}</li>
+                            <li>{{Obj6.Autor}}</li>
+                        </ul>
+                        </div>
+                        <div class="div w-25 h-100">
+                            <img class="w-50 h-50" src="{{Obj7.img}}" alt="">
+                            <ul>
+                            <li>{{Obj7.Name}}</li>
+                            <li>{{Obj7.Year}}</li>
+                            <li>{{Obj7.Autor}}</li>
+                        </ul>
+                        </div>
+                        <div class="div w-25 h-100">
+                            <img class="w-50 h-50" src="{{Obj8.img}}" alt="">
+                            <ul>
+                            <li>{{Obj8.Name}}</li>
+                            <li>{{Obj8.Year}}</li>
+                            <li>{{Obj8.Autor}}</li>
+                        </ul>
+                        </div>
+                        <div class="div w-25 h-100">
+                            <img class="w-50 h-50" src="{{Obj9.img}}" alt="">
+                            <ul>
+                            <li>{{Obj9.Name}}</li>
+                            <li>{{Obj9.Year}}</li>
+                            <li>{{Obj9.Autor}}</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="w-50 border border-white p-2 d-flex mt-1 ">
+                        <div class="div w-25 h-100">
+                            <img class="w-100 h-50" src="{{Obj10.img}}" alt="">
+                            <ul>
+                            <li>{{Obj10.Name}}</li>
+                            <li>{{Obj10.Year}}</li>
+                        </ul>
+                        </div>
+                        <div class="div w-25 h-100 ms-4">
+                            <img class="w-100 h-50" src="{{Obj11.img}}" alt="">
+                            <ul>
+                            <li>{{Obj11.Name}}</li>
+                            <li>{{Obj11.Year}}</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            <div class="div"></div>
+        </ng-template>
+        <div class="d-flex text-center" >
+
+</div>
+</div>
+</div>
+
